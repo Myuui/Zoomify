@@ -13,9 +13,9 @@
 
 [![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/isxander)
   
-*A zoom mod with infinite customizability.*
+*Un mod de zoom avec une personnalisation infinie.*
   
-Zoomify aims to provide the easiest, most configurable and most sexy looking zoom mod you will ever find.
+Zoomify a pour but de fournir le mod de zoom le plus facile, le plus configurable et le plus sexy que vous puissiez trouver.
 
 ![Zoom Example](https://raw.githubusercontent.com/isXander/Zoomify/1.19/screenshots/zoom-example.gif)
   
@@ -23,37 +23,37 @@ Zoomify aims to provide the easiest, most configurable and most sexy looking zoo
   
 </center></div>
 
-## How to use
-### Keybind
-Initially, Minecraft has a keybind that overrides Zoomify by default.
-Go to the controls menu and make sure the Zoomify keybind (default `C`)
-isn't conflicting (goes red).
+## Mode d'emploi
+### Raccourcis clavier
+Initialement, Minecraft a un raccourci clavier qui surpasse Zoomify par défaut.
+Allez dans le menu des contrôles et assurez-vous que le raccourci clavier Zoomify (par défaut `C`)
+n'est pas en conflit (passe en rouge).
 
-### Open settings menu
-You can access the settings menu with two ways.
+### Ouvrir le menu des paramètres
+Vous pouvez accéder au menu des paramètres de deux manières.
 
-- The client command `/zoomify`
-- [Mod Menu](https://modrinth.com/mod/modmenu) settings button
+- La commande client `/zoomify`.
+- Le bouton paramètre [Mod Menu](https://modrinth.com/mod/modmenu)
 
-## Features
-### Scroll Zoom
-You can zoom in further using your scroll wheel.
+## Fonctionnalités
+### Zoom par défilement
+Vous pouvez effectuer un zoom avant à l'aide de la molette de défilement.
 
 ![Scroll Zoom Example](https://raw.githubusercontent.com/isXander/Zoomify/1.19/screenshots/scroll-zoom-example.gif)
 
-### Spyglass Integration
-You can configure Zoomify to only be able to zoom in when you are holding or carrying a spyglass.
-Or even just override the spyglass zoom with Zoomify!
+### Intégration de la longue-vue
+Vous pouvez configurer Zoomify pour ne pouvoir zoomer que lorsque vous tenez ou portez une longue-vue.
+Ou même simplement remplacer le zoom de la longue-vue par Zoomify !
 
-Show the spyglass overlay and play spyglass sound effects when using Zoomify.
+Affiche la superposition de la longue-vue et joue les effets sonores de la longue-vue lorsque vous utilisez Zoomify.
 
 ![Spyglass Integration Example](https://raw.githubusercontent.com/isXander/Zoomify/1.19/screenshots/spyglass-integration-example.gif)
 
 ### Transitions
-**14 different** transitions to choose from!
+14 transitions différentes au choix !
 
-- Instant
-- Linear
+- Instantané
+- Linéaire
 - [Ease in Sine](https://easings.net/#easeInSine)
 - [Ease out Sine](https://easings.net/#easeOutSine)
 - [Ease in/out Sine](https://easings.net/#easeInOutSine)
@@ -67,24 +67,24 @@ Show the spyglass overlay and play spyglass sound effects when using Zoomify.
 - [Ease out Exponential](https://easings.net/#easeOutExp)
 - [Ease in/out Exponential](https://easings.net/#easeInOutExp)
 
-You can even pick what transition you would like for zooming in and out individually!
+Vous pouvez même choisir individuellement la transition que vous souhaitez pour le zoom avant et arrière !
 
 ![Individual Transition Config](https://raw.githubusercontent.com/isXander/Zoomify/1.19/screenshots/individual-transition.png)
 
-### Relative Sensitivity
-Reduce your mouse sensitivity based on the amount of zoom,
-so you have fine control over your player.
+### Sensibilité relative
+Réduisez la sensibilité de votre souris en fonction de la quantité de zoom,
+pour que vous ayez un contrôle fin sur votre lecteur.
 
 ![Relative Sensitivity Example](https://raw.githubusercontent.com/isXander/Zoomify/1.19/screenshots/relative-sensitivity-example.gif)
 
-### Relative View Bobbing
-Reduce the view bobbing effect based on the amount of zoom,
-so you can walk and zoom at the same time!
+### View Bobbing Relatif
+Réduit l'effet View Bobbing en fonction de la quantité de zoom,
+Vous pouvez donc marcher et zoomer en même temps !
 
 ![Relative View Bobbing Example](https://raw.githubusercontent.com/isXander/Zoomify/1.19/screenshots/relative-view-bobbing-example.gif)
 
-### Cinematic Camera
-Make the mouse/camera smooth, like the zoom in [OptiFine](https://www.optifine.net).
+### Caméra cinématique
+Rends la souris/caméra lisse, comme le zoom dans [OptiFine](https://www.optifine.net).
 
 ![Cinematic Cam Example](https://raw.githubusercontent.com/isXander/Zoomify/1.19/screenshots/cinematic-cam-example.gif)
 
@@ -93,43 +93,44 @@ Turn off this setting to prevent your hand from also being zoomed in!
 
 ![Affect Hand FOV Turned Off Example](https://raw.githubusercontent.com/isXander/Zoomify/1.19/screenshots/affect-hand-fov-disabled-example.gif)
 
-### Secondary Zoom
+### Zoom secondaire
 
-Completely separate zoom from normal Zoomify.
-Aimed for content creators, features `Hide HUD While Zooming` option and longer zoom in times.
+Zoom complètement séparé de Zoomify normal.
+Destiné aux créateurs de contenu, il comporte l'option "Masquer la superposition pendant le zoom" et des temps de zoom plus longs.
 
 ![Secondary Zoom Example](https://raw.githubusercontent.com/isXander/Zoomify/1.19/screenshots/secondary-zoom.gif)
 
-### Presets
+### Préréglages
 
-You can reset to default, make Zoomify behave like OptiFine and others!
+Vous pouvez rétablir les valeurs par défaut, faire en sorte que Zoomify se comporte comme OptiFine et autres !
 
-### Smart Keybinding Detection
+### Détection intelligente de raccourcis clavier
 
-On first launch, if a keybinding is conflicting with Zoomify's zoom, a notification will appear notifying them of this.
+Au premier lancement, si un raccourci clavier entre en conflit avec le zoom de Zoomify, une notification s'affiche pour l'en informer.
 
 ![Keybinding Conflict Detection](https://raw.githubusercontent.com/isXander/Zoomify/1.19/screenshots/keybind-conflict-detection.png)
 
-### Highly configurable
-Absolutely **NO** hard-coded values. Everything about your zoom is configurable!
+### Hautement configurable
+Absolument **Aucune** valeur codée en dur. Tout ce qui concerne votre zoom est configurable !
 
-### Control the zoom speed with seconds
-Instead of some stupid arbitrary value such as zoom speed, you can pick
-the exact amount of seconds it will take to zoom in, with a separate setting for zooming out.
+### Contrôlez la vitesse du zoom en secondes
+Au lieu d'une valeur arbitraire stupide comme la vitesse du zoom, vous pouvez choisir
+le nombre exact de secondes qu'il faudra pour effectuer un zoom avant, avec un paramètre distinct pour le zoom arrière.
 
-### Credits
-- [Xander](https://github.com/isXander) - Developer
-- [MoonTidez](https://github.com/MoonTidez) - Logo designer
+### Crédits
+- [Xander](https://github.com/isXander) - Développeur
+- [MoonTidez](https://github.com/MoonTidez) - Concepteur de logo
 
-#### Translators
-Languages in alphabetical order
+#### Traducteurs
+Langues par ordre alphabétique
 
-- [Xander](https://github.com/isXander) - English (United Kingdom)
-- [神枪968](https://github.com/GodGun968) - 简体中文 / Chinese (Simplified)
-- [Madis0](https://github.com/Madis0) - eesti keel / Estonian
-- [Rodrigo Appelt](https://github.com/Agentew04) - Português / Portuguese
-- [SyberiaK](https://github.com/SyberiaK) - Русский / Russian
-- [Felix14-v2](https://github.com/Felix14-v2) - Русский / Russian
-- [Zetsphiron](https://github.com/Zetsphiron) - Español (mexicano) / Spanish (Mexico)
-- [Zetsphiron](https://github.com/Zetsphiron) - Español (españa) / Spanish (Spain)
-- [localfossa](https://github.com/localfossa) - Türkçe / Turkish
+- [Xander](https://github.com/isXander) - Anglais (Royaume-Uni)
+- [神枪968](https://github.com/GodGun968) - 简体中文 / Chinois (simplifié)
+- [Madis0](https://github.com/Madis0) - eesti keel / Estonien
+- [Myuui](https://github.com/Myuui) - Français / French
+- [Rodrigo Appelt](https://github.com/Agentew04) - Português / Portugais
+- [SyberiaK](https://github.com/SyberiaK) - Русский / Russe
+- [Felix14-v2](https://github.com/Felix14-v2) - Русский / Russe
+- [Zetsphiron](https://github.com/Zetsphiron) - Español (mexicano) / Espagnol (Mexique)
+- [Zetsphiron](https://github.com/Zetsphiron) - Español (españa) / Espagnol (Espagne)
+- [localfossa](https://github.com/localfossa) - Türkçe / Turc
